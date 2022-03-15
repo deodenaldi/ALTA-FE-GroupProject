@@ -1,0 +1,28 @@
+.txt-darkblue {
+    color: #19345e;
+}
+
+.txt-orange {
+    color: #f47522;
+}
+
+.bg-liteblue {
+    background-color: #b3def12c;
+}
+
+.bg-darkblue {
+    background-color: #19345e;
+}
+
+.bg-orange {
+    background-color: #f47522;
+}
+
+#navigation {
+    padding-left: 7vw;
+    padding-right: 8vw;
+}
+
+#foot {
+    padding-left: 7vw;
+}
