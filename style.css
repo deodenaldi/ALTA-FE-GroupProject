@@ -1,7 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap');
+@import url("https://p.typekit.net/p.css?s=1&k=qbb8ieo&ht=tk&f=15780.15782.37496.37497.42300.42301.42302.42303&a=104262156&app=typekit&e=css");
 * {
     margin: 0;
     padding: 0;
 }
+
+
+/* Fonts */
+
+.font-Roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-Poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.font-Muli {
+    font-family: "muli", sans-serif;
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+
+/* Color */
 
 .txt-darkblue {
     color: #19345e;
@@ -16,7 +40,12 @@
 }
 
 .bg-darkblue {
-    background-color: #19345e;
+    background-color: rgb(25, 52, 94);
+}
+
+.bg-opacity-75 {
+    background-color: rgba(25, 52, 94, .75);
+    height: 80vh;
 }
 
 .bg-orange {
@@ -24,13 +53,12 @@
     background-color: #f47522;
 }
 
+
+/* Other */
+
 #navigation {
     padding-left: 7vw;
     padding-right: 8vw;
-}
-
-#foot {
-    padding-left: 7vw;
 }
 
 .achievements img {
@@ -41,4 +69,8 @@
 #bg-everyone {
     background-image: url(./images/bg-people@2x.png);
     background-size: cover;
+}
+
+.posted {
+    width: 100%;
 }
