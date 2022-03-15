@@ -15,6 +15,7 @@
 }
 
 .bg-orange {
+    color: #000;
     background-color: #f47522;
 }
 
@@ -25,4 +26,9 @@
 
 #foot {
     padding-left: 7vw;
+}
+
+.achievements img {
+    width: 40px;
+    height: 40px;
 }
