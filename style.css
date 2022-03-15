@@ -16,6 +16,7 @@ h6 {
 
 p {
     font-weight: 400;
+    color: rgb(25, 52, 94);
 }
 
 .txt-darkblue {
@@ -61,4 +62,8 @@ p {
 .bg-opacity-75 {
     background-color: rgba(25, 52, 94, .75);
     height: 80vh;
+}
+
+#latest .col img {
+    width: 100%;
 }
