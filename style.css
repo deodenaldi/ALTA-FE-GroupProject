@@ -32,6 +32,9 @@
     font-weight: 400;
 }
 
+
+/* Color */
+
 .txt-darkblue {
     color: #19345e;
 }
@@ -48,18 +51,22 @@
     background-color: rgb(25, 52, 94);
 }
 
+.bg-opacity-75 {
+    background-color: rgba(25, 52, 94, .75);
+    height: 80vh;
+}
+
 .bg-orange {
     color: #000;
     background-color: #f47522;
 }
 
+
+/* Other */
+
 #navigation {
     padding-left: 7vw;
     padding-right: 8vw;
-}
-
-#foot {
-    padding-left: 7vw;
 }
 
 .achievements img {
@@ -70,11 +77,6 @@
 #bg-everyone {
     background-image: url(./images/bg-people@2x.png);
     background-size: cover;
-}
-
-.bg-opacity-75 {
-    background-color: rgba(25, 52, 94, .75);
-    height: 80vh;
 }
 
 .posted {
