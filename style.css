@@ -54,6 +54,33 @@
 }
 
 
+/* Frame Area */
+
+.frame-photo {
+    border: 1px solid;
+    border-width: 15px!important;
+    position: relative!important;
+    /* bottom: 29vh; */
+    /* left: 1.5vw; */
+    bottom: 39vh;
+    left: 2vw;
+    height: 32vh;
+    width: 15vw;
+    /* left: 60px; */
+    /* bottom: 290px; */
+    /* height: 320px; */
+    /* width: 275px; */
+}
+
+.frame-darkblue {
+    border-color: #19345e;
+}
+
+.frame-orange {
+    border-color: #f47522;
+}
+
+
 /* Other */
 
 .achievements img {
