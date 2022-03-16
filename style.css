@@ -54,6 +54,17 @@
 }
 
 
+/* Form focus */
+.orange-border .form-control:focus {
+    border: 1px solid #F47522;
+    box-shadow: 0 0 0 0.2rem rgba(244, 117, 34, .25);
+}
+
+/* Form kanan */
+.form-kanan {
+    margin-top: 60px;
+}
+
 /* Other */
 
 #navigation {
