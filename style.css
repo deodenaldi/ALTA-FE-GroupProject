@@ -53,6 +53,18 @@
     background-color: #f47522;
 }
 
+/* Form Settings */
+
+/* Form focus */
+.orange-border .form-control:focus {
+    border: 1px solid #F47522;
+    box-shadow: 0 0 0 0.2rem rgba(244, 117, 34, .25);
+}
+
+/* Form kanan */
+.form-kanan {
+    margin-top: 60px;
+}
 
 /* Frame Area */
 
@@ -60,14 +72,12 @@
     border: 1px solid;
     border-width: 10px!important;
     position: relative!important;
-    /* bottom: 39vh; */
     right: 1vw;
-    /* padding: 120px 0;
-    margin: 0 95px; */
     bottom: 22em;
     padding: 7.5em 0;
     margin: 0 6em;
 }
+
 
 .frame-darkblue {
     border-color: #19345e;
@@ -94,7 +104,6 @@
     width: 100%;
 }
 
-
 /* Responsive Settings */
 
 @supports (display: flex) {
@@ -103,10 +112,7 @@
             right: 1em;
             bottom: 20em;
             padding: 6.5em 0;
-            margin: 0 5em;
-            /* bottom: 22em; */
-            /* padding: 116px 0;
-            margin: 0 67px; */
+            margin: 0 5em;                      
         }
     }
 }
