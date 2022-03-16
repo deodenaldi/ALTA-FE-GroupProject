@@ -53,6 +53,7 @@
     background-color: #f47522;
 }
 
+/* Form Settings */
 
 /* Form focus */
 .orange-border .form-control:focus {
@@ -65,12 +66,29 @@
     margin-top: 60px;
 }
 
-/* Other */
+/* Frame Area */
 
-#navigation {
-    padding-left: 7vw;
-    padding-right: 8vw;
+.frame-photo {
+    border: 1px solid;
+    border-width: 10px!important;
+    position: relative!important;
+    right: 1vw;
+    bottom: 22em;
+    padding: 7.5em 0;
+    margin: 0 6em;
 }
+
+
+.frame-darkblue {
+    border-color: #19345e;
+}
+
+.frame-orange {
+    border-color: #f47522;
+}
+
+
+/* Other */
 
 .achievements img {
     width: 40px;
@@ -84,4 +102,17 @@
 
 .posted {
     width: 100%;
+}
+
+/* Responsive Settings */
+
+@supports (display: flex) {
+    @media screen and (max-width: 1399px) {
+        .frame-photo {
+            right: 1em;
+            bottom: 20em;
+            padding: 6.5em 0;
+            margin: 0 5em;                      
+        }
+    }
 }
