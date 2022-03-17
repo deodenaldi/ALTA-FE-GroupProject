@@ -103,6 +103,33 @@
     border-color: #f47522;
 }
 
+.gambar {
+    width: 320px;
+    height: 399px;
+    background-image: url(/images/shutterstock_796346011@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .frameOrange{
+    width: 320px;
+    height: 399px;
+    border: 10px solid #f47522;
+    position: relative!important;
+    z-index: 100;
+    top:30px;
+    left:-30px
+  }
+
+  .frameDarkBlue{
+    width: 320px;
+    height: 399px;
+    border: 10px solid #19345e;
+    position: relative!important;
+    z-index: 100;
+    top:30px;
+    left:-30px
+  }
 
 /* Other */
 
