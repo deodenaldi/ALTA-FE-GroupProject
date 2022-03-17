@@ -109,16 +109,20 @@
     width: 100%;
 }
 
+.footer-social {
+    justify-content: center;
+}
+
 
 /* Responsive Settings */
 
 @supports (display: flex) {
     @media screen and (max-width: 1399px) {
         .frame-photo {
-            right: 1em;
-            bottom: 20em;
-            padding: 6.5em 0;
-            margin: 0 5em;
+            right: 20px;
+            padding: 136px 0;
+            margin: 0px 50px;
+            top: -380px;
         }
     }
 }
