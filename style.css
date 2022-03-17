@@ -5,6 +5,18 @@
     padding: 0;
 }
 
+/* navbar */
+.nav-link {
+    margin-right: 20px;
+}
+
+/* tombol */
+.tombol {
+    border-radius: 50px;
+    width: 130px;
+    height: 38px;
+    background: #F47522 0% 0% no-repeat padding-box;
+}
 
 /* Fonts */
 
@@ -52,8 +64,6 @@
     color: #000;
     background-color: #f47522;
 }
-
-/* Form Settings */
 
 /* Form focus */
 .orange-border .form-control:focus {
