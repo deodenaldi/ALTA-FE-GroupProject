@@ -66,12 +66,15 @@
 }
 
 /* Form focus */
+
 .orange-border .form-control:focus {
     border: 1px solid #F47522;
     box-shadow: 0 0 0 0.2rem rgba(244, 117, 34, .25);
 }
 
+
 /* Form kanan */
+
 .form-kanan {
     margin-top: 60px;
 }
@@ -87,7 +90,6 @@
     padding: 7.5em 0;
     margin: 0 6em;
 }
-
 
 .frame-darkblue {
     border-color: #19345e;
@@ -114,15 +116,20 @@
     width: 100%;
 }
 
+.footer-social {
+    justify-content: center;
+}
+
+
 /* Responsive Settings */
 
 @supports (display: flex) {
     @media screen and (max-width: 1399px) {
         .frame-photo {
-            right: 1em;
-            bottom: 20em;
-            padding: 6.5em 0;
-            margin: 0 5em;                      
+            right: 20px;
+            padding: 136px 0;
+            margin: 0px 50px;
+            top: -380px;
         }
     }
 }

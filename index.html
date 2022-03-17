@@ -10,6 +10,10 @@
     <link rel="icon" href="https://www.alterra.id/wp-content/themes/alterra-wp/assets/img/favicon.ico">
     <title>Home</title>
     <style>
+        a:hover {
+            color: #f47522;
+        }
+        
         #contact {
             position: relative;
             top: 1px;
@@ -17,16 +21,22 @@
         }
         
         #team-check {
-            margin-right: 6vw;
-            margin-top: -28vh;
+            margin-right: 50px;
+            margin-top: -100px;
+            position: relative;
         }
         
         #latest {
-            margin-top: -25vh;
+            /* margin-top: -25vh; */
+            margin-top: -60px;
         }
         
         .latest-more {
             margin-bottom: 5vh;
+        }
+        
+        .under-frame {
+            margin-bottom: -200px;
         }
     </style>
 </head>
@@ -35,19 +45,19 @@
     <nav id="navigation" class="container-fluid navbar sticky-lg-top bg-white shadow-sm justify-content-md-around">
         <img style="width: 150px;" src="./images/logo-ALTA@2x.png" alt="logo-ALTA">
         <ul class="nav justify-content-between">
-            <li class="nav-item p-3 font-Muli h6 fw-bold" id="home"><a class="text-decoration-none txt-orange" href="./index.html"> Home</a></li>
-            <li class="nav-item p-3 font-Muli h6 fw-bold" id="about"><a class="text-decoration-none txt-darkblue" href="#About"> About</a></li>
-            <li class="nav-item p-3 font-Muli h6 fw-bold" id="experience"><a class="text-decoration-none txt-darkblue" href="./team.html"> Team</a></li>
-            <li class="nav-item p-3 font-Muli h6 fw-bold" id="experience"><a class="text-decoration-none txt-darkblue" href="./blog.html"> Blog</a></li>
+            <li class="nav-item p-3 font-Muli h6 fw-bold" id="home"><a class="text-decoration-none txt-orange" href="./index.html#top"> Home</a></li>
+            <li class="nav-item p-3 font-Muli h6 fw-bold" id="about"><a class="text-decoration-none txt-darkblue" href="./index.html#About"> About</a></li>
+            <li class="nav-item p-3 font-Muli h6 fw-bold" id="experience"><a class="text-decoration-none txt-darkblue" href="./index.html#Team"> Team</a></li>
+            <li class="nav-item p-3 font-Muli h6 fw-bold" id="experience"><a class="text-decoration-none txt-darkblue" href="./index.html#latest"> Blog</a></li>
             <li class="nav-item px-5 mx-5 mt-1 mb-2 pt-2 nav-pills bg-orange rounded-pill" id="contact"><a class="text-decoration-none text-white font-Muli fw-bold" href="./contact.html"> Contact</a></li>
         </ul>
     </nav>
 
     <main>
-        <header id="Hero" class="container-fluid border-top bg-liteblue p-3 mb-0 bg-opacity-25">
-            <div class="container d-flex my-4 align-items-center ">
-                <div class=" ms-4 p-5">
-                    <img style="width: 30vw;" src="./images/Group 16136@2x@2x.png" alt="">
+        <header id="Hero" class="container-fluid border-top bg-liteblue p-sm-3 mb-0 bg-opacity-25">
+            <div class="container d-flex my-4 align-items-center flex-wrap">
+                <div id="banner-logo" class=" ms-lg-4 p-lg-5">
+                    <img style="width: 300px;" src="./images/Group 16136@2x@2x.png" alt="">
                 </div>
                 <div class=" align-items-center my-auto">
                     <h4 class="fw-900 my-3 font-Muli txt-darkblue">HI THERE !</h4>
@@ -55,18 +65,20 @@
                     <p class="fw-bold font-Muli txt-darkblue my-3 fs-5 lh-base">Alterra Academy Full-stack Program is Coding <br> Bootcamp which transform you being professional <br> Software Engineer within 3 months.</p>
                     <button class="bg-orange border-0 rounded-pill py-2 d-flex my-3 px-sm-5 align-items-center">
                         <img style="width: 20px;" src="./images/sport-team.png" alt="">
+                        <a href="./team.html" class="text-decoration-none">
                         <h6 class="text-white ms-2 my-auto font-Muli fw-normal fs-6">
                             More About Team
-                            </h6>
+                        </h6>
+                    </a>
                         </button>
                 </div>
             </div>
 
         </header>
-        <div style="width: 60vw;" class="mx-auto align-items-center border-0 rounded-pill shadow pt-3 px-3 pb-2 mb-5 bg-white">
+        <div class="mx-auto align-items-center border-0 rounded-pill shadow pt-sm-3 px-sm-3 pb-sm-2 mb-sm-5 bg-white">
             <table class="mx-auto txt-darkblue">
                 <tr class="">
-                    <td class="border-end px-5">
+                    <td class="border-end px-sm-5">
                         <div class="achievements d-flex">
                             <img class="rounded-circle bg-orange p-2" src="./images/reward.png" alt="">
                             <div class="text-achievement ps-2">
@@ -75,7 +87,7 @@
                         </div>
                     </td>
 
-                    <td class="px-5">
+                    <td class="px-sm-5">
                         <div class="achievements d-flex">
                             <img class="rounded-circle bg-orange p-2" src="./images/project.png" alt="">
                             <div class="text-achievement ps-2">
@@ -84,7 +96,7 @@
                         </div>
                     </td>
 
-                    <td class="border-start px-5">
+                    <td class="border-start px-sm-5">
                         <div class="achievements d-flex">
                             <img class="rounded-circle bg-orange p-2" src="./images/support.png" alt="">
                             <div class="text-achievement ps-2">
@@ -105,7 +117,7 @@
 
             <div id="bg-everyone" class="mt-5 text-white">
                 <div class="bg-opacity-75 text-center ">
-                    <div class="position-relative top-50 start-50 translate-middle">
+                    <div id="" class="position-relative top-50 start-50 translate-middle px-4">
 
                         <h1 class="pb-2 display-4 fw-bold text-white">Alterra is For Everyone</h1>
                         <p class="pt-2 pb-3 text-white fs-5 ">
@@ -117,7 +129,8 @@
             </div>
         </section>
 
-        <section id="Team " class="container py-1">
+        <section id="Team" class="container py-1">
+            <img class="position-absolute start-0" src="./images/ornament_batik.png" alt="" style="width: 16vw">
             <div class="d-flex align-items-center justify-content-center mt-5">
                 <h2 class="txt-orange px-3 fw-bold">—</h2>
                 <h1 class="font-Muli txt-darkblue display-5 fw-bold"> Meet Our Team </h1>
@@ -125,28 +138,28 @@
             </div>
             <h5 class="text-center txt-darkblue pb-5 font-Muli fw-bold">Our Team Consist Only of the Best Talents</h5>
 
-            <div class="row text-center my-4 mx-auto ">
-                <div class="col-md-4 col-lg-4">
+            <div class="row text-center my-4 mx-auto justify-content-center">
+                <div class="col-md-4 col-lg-4 under-frame">
                     <div class="my-5 ">
-                        <img class="" style="width:15vw " src="./images/shutterstock_796346011@2x.png " alt=" ">
+                        <img class="" style="width: 250px " src="./images/shutterstock_796346011@2x.png " alt=" ">
                     </div>
                     <h5 class="mt-4 txt-orange fw-bold font-Roboto"> Aulia Rahmani </h5>
                     <h6 class="txt-darkblue font-Poppins"> UI/UX Designer</h6>
                     <div class="frame-photo frame-orange">
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-4">
+                <div class="col-md-4 col-lg-4 under-frame">
                     <div class="mb-5">
-                        <img class="shadow-lg " style="width: 15vw " src="./images/shutterstock_796346011@2x.png " alt=" ">
+                        <img class="shadow-lg " style="width: 250px " src="./images/shutterstock_796346011@2x.png " alt=" ">
                     </div>
                     <h5 class="mt-4 txt-orange fw-bold font-Roboto"> Cindy Felita</h5>
                     <h6 class="txt-darkblue font-Poppins"> Backend Development</h6>
                     <div class="frame-photo frame-darkblue">
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-4">
+                <div class="col-md-4 col-lg-4 under-frame">
                     <div class="my-5 ">
-                        <img class="" style="width:15vw " src="./images/shutterstock_796346011@2x.png " alt=" ">
+                        <img class="" style="width: 250px " src="./images/shutterstock_796346011@2x.png " alt=" ">
                     </div>
                     <h5 class="mt-4 txt-orange fw-bold font-Roboto"> Winda Pramesti</h5>
                     <h6 class="txt-darkblue font-Poppins"> Frontend Development</h6>
@@ -154,8 +167,9 @@
                     </div>
                 </div>
             </div>
-            <a href="./team.html " class="txt-darkblue pe-5 pt-0 mt-0">
-                <h6 id="team-check" class="float-end font-Muli fw-bold"> Check Now ➔</h6>
+
+            <a href="./team.html">
+                <p class="float-end txt-darkblue text-decoration-none fw-bold font-Muli" id="team-check">Check Now ➔</p>
             </a>
         </section> <br>
 
@@ -212,10 +226,10 @@
     </main>
 
 
-    <footer class="container-fluid bg-darkblue d-flex justify-content-around align-items-center py-4 px-0">
+    <footer class="container-fluid bg-darkblue d-flex justify-content-around align-items-center py-4 px-0 d-lg-flex flex-column">
         <img class="" style="width: 150px; " src="./images/logo-ALTA-v2@2x.png " alt="logo-ALTA ">
-        <div class=" ">
-            <p class="h6 fw-normal font-Muli" style="color: #fff; ">Social Media</p>
+        <div class="p-4">
+            <p id="footer-social" class="h6 fw-normal font-Muli" style="color: #fff; ">Social Media</p>
             <div class=" ">
                 <img class="me-2 " style="width: 20px; " src="./images/ic_fb.png " alt=" ">
                 <img class="me-2 " style="width: 20px; " src="./images/ic_twitter.png " alt=" ">
