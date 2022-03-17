@@ -12,9 +12,9 @@
 
 /* tombol */
 .tombol {
-    border-radius: 50px;
-    width: 130px;
-    height: 38px;
+    border-radius: 100px;
+    width: 205px;
+    height: 40px;
     background: #F47522 0% 0% no-repeat padding-box;
 }
 
@@ -76,7 +76,11 @@
 /* Form kanan */
 
 .form-kanan {
-    margin-top: 60px;
+    margin-top: 50px;
+}
+
+.form-kiri {
+    margin-top: 50px;
 }
 
 /* Frame Area */
