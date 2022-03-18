@@ -11,12 +11,18 @@
 }
 
 /* tombol */
-.tombol {
+.btn-1 {
     border-radius: 100px;
     width: 205px;
     height: 40px;
-    background: #F47522 0% 0% no-repeat padding-box;
+    border: none;
+    color: yellow;
+    background-color: #f47522;
+    box-shadow: inset 0 0 0 0 yellow;
+    transition: ease-out 0.3s;
 }
+
+
 
 /* Fonts */
 
